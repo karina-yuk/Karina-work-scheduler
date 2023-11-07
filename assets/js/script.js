@@ -1,6 +1,3 @@
-// Wrap all code that interacts with the DOM in a call to jQuery to ensure that
-// the code isn't run until the browser has finished rendering all the elements
-// in the html.
 $(function () {
   var saveButtons = $(".btn");
 
@@ -21,11 +18,11 @@ $(function () {
     element.children("textarea").val(savedData);
   });
 
-  var todayDate = dayjs().format("MMMM D, YYYY");
+  var todayDate = dayjs().format("dddd, MMMM D, YYYY");
 
   // Get element currentDay and replace with current Date
   $("#currentDay").text(todayDate);
-  console.log(todayDate);
+console.log(todayDate);
 
   var currentHour = parseInt(dayjs().format("HH"));
 
