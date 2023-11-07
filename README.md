@@ -11,7 +11,7 @@ The focus of this project is to create a simple calendar application that allows
 <img src="./Images/Sample Scheduler.jpg">
 
 3. Users can save events.
-<img src="./Images/Saved events.png>
+<img src="./Images/Saved events.png">
 
 ## Deployment Link
 [Deployment Link](https://karina-yuk.github.io/Calendar/)
