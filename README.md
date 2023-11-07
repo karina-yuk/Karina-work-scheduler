@@ -7,7 +7,7 @@ The focus of this project is to create a simple calendar application that allows
 1. Added current date to Scheduler.
 <img src="./Images/Scheduler Header.png">
 
-2. Added more Timeblocks for 9am-5pm work hours.
+2. Timeblocks for 9am-5pm work hours color code for Past(grey), Present(red), Future(green) events.
 <img src="./Images/Sample Scheduler.jpg">
 
 3. Users can save events.
